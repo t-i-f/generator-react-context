@@ -1,0 +1,6 @@
+{
+  "handler": "handlebars",
+  "variables": [
+    "name"
+  ]
+}

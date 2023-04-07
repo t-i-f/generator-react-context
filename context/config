@@ -1,6 +1,6 @@
 {
   "handler": "handlebars",
-  "extension": "tsx",
+  "file": "tisf-context.tsx",
   "variables": [
     "name"
   ]

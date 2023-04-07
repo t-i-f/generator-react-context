@@ -1,0 +1,5 @@
+import { create } from 'zustand';
+
+interface {{name}}State {}
+
+export const use{{name}}Store = create<{{name}}State>((set, get) => ({}));

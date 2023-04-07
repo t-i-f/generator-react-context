@@ -8,5 +8,5 @@ export const use{{name}}Ctx = (): ContextType<typeof {{name}}Ctx> =>
   React.useContext({{name}}Ctx);
 
 export const {{name}}: ReactFC = ({ children }) => {
-  return <{{name}}Ctx.Provider value={{}}>{children}</{{name}}Ctx.Provider>;
+  return <{{name}}Ctx.Provider value=\{{}}>{children}</{{name}}Ctx.Provider>;
 };

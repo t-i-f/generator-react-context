@@ -1,5 +1,10 @@
 import { create } from 'zustand';
 
-interface {{name}}State {}
+interface {{name}}State {
+  bears?: number;
+  increase?: () => void;
+}
 
-export const use{{name}}Store = create<{{name}}State>((set, get) => ({}));
+export const use{{name}}Store = create<{{name}}State>((set) => ({
+    increase: () => set((state) => ({ bears: state.bears + 1 })),
+}));

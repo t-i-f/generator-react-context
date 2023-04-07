@@ -1,0 +1,7 @@
+{
+  "handler": "handlebars",
+  "file": "tisf-context.tsx",
+  "variables": [
+    "name"
+  ]
+}
